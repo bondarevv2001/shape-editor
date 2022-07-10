@@ -1,0 +1,25 @@
+{
+  "name": "svg-constructor",
+  "version": "1.0.0",
+  "description": "SVG constructor tool",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "bondarev",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "d3": "^7.6.1",
+    "d3-drag": "^3.0.0",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.18",
+    "sass-loader": "^13.0.2"
+  }
+}
